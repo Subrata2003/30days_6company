@@ -5,10 +5,7 @@ public:
     bool flag = false;
     int minimumRounds(vector<int>& tasks)
     {
-        map<int,int>mp;
-        for(auto & e:tasks)
-            mp[e]++;
-        if(!flag)
+     
         {
             dp[0] = INT_MAX/2;dp[1] = INT_MAX/2;
             dp[2] = 1;dp[3] = 1;
